@@ -38,7 +38,7 @@ const diveIcon = (d) => {
   if (d.wreck) {
     return '<img src="icons/sail-boat-sink.svg" title="Wreck dive">';
   }
-  if (d.depth >= 20) {
+  if (d.depth >= 18) {
     return '<img src="icons/waves.svg" title="Deep dive">';
   }
   return '<img src="icons/wave.svg" title="Shallow dive">';
