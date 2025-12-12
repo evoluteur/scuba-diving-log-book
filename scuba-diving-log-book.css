@@ -1,0 +1,53 @@
+body {
+  background-color: #1a212d;
+  color: white;
+  font-family: monospace;
+  padding: 10px 20px 30px;
+}
+h1,
+h2 {
+  background: linear-gradient(white, #51eaff);
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  font-size: 32px;
+  margin-left: 190px;
+}
+h2 {
+  margin: 30px 0 20px;
+}
+
+.summary {
+  text-align: center;
+  margin: 20px 0;
+}
+.dives {
+  margin-left: 16px;
+}
+.dive {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.details {
+  position: relative;
+}
+.site {
+  font-size: 16px;
+  margin-bottom: 6px;
+
+  > span {
+    color: silver;
+  }
+}
+img {
+  width: 36px;
+}
+.nitrox {
+  position: absolute;
+  margin-left: 6px;
+  width: 16px;
+}
