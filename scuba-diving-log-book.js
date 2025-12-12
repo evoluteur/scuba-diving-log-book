@@ -51,7 +51,7 @@ const dive = (d) => `<div class="dive">
       <div class="details">${d.date}: ${d.depth} meters -
        ${fTime(d.duration)}
        ${
-         d.mix
+         d.nitrox > 21
            ? '<img class="nitrox" src="icons/diving-scuba-tank.svg" title="Nitrox">'
            : ""
        }

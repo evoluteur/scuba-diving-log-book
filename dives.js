@@ -416,7 +416,7 @@ const dives = [
     city: "Naples",
     state: "FL",
     country: "US",
-    mix: "Nitrox 31",
+    nitrox: 31,
   },
   {
     date: "6/29/2025",
@@ -426,7 +426,7 @@ const dives = [
     city: "Naples",
     state: "FL",
     country: "US",
-    mix: "Nitrox 32",
+    nitrox: 32,
   },
   {
     date: "7/1/2025",
@@ -520,7 +520,7 @@ const dives = [
     city: "Key Largo",
     state: "FL",
     country: "US",
-    mix: "Nitrox 32",
+    nitrox: 32,
     notes: "Aborted dive",
   },
   {
@@ -531,7 +531,7 @@ const dives = [
     city: "Key Largo",
     state: "FL",
     country: "US",
-    mix: "Nitrox 31",
+    nitrox: 31,
     wreck: true,
     notes: "Turtles + shark",
   },
@@ -543,6 +543,6 @@ const dives = [
     city: "Key Largo",
     state: "FL",
     country: "US",
-    mix: "Nitrox 32",
+    nitrox: 32,
   },
 ];
