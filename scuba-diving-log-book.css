@@ -2,6 +2,7 @@ body {
   background-color: #1a212d;
   color: white;
   font-family: monospace;
+  font-size: 14px;
   padding: 10px 20px 30px;
 }
 h1,
