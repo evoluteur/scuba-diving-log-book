@@ -60,7 +60,7 @@ const dives = [
     site: "Aragon",
     city: "Sausset-les-Pins",
     country: "France",
-    notes: "Scouts camp",
+    notes: "Scouts camp - photo shoot",
   },
 
   {
@@ -135,6 +135,7 @@ const dives = [
     site: "Mejan",
     city: "Sausset-les-Pins",
     country: "France",
+    notes: "Deep dive",
   },
   {
     date: "11/8/1990",
@@ -307,6 +308,7 @@ const dives = [
     site: "Les Marches",
     city: "Nice",
     country: "France",
+    notes: "Explo",
   },
   {
     date: "8/8/1993",
@@ -325,6 +327,7 @@ const dives = [
     city: "Lahaina",
     state: "HI",
     country: "US",
+    notes: "Explo",
   },
   {
     date: "9/10/1993",
@@ -334,6 +337,7 @@ const dives = [
     city: "Lahaina",
     state: "HI",
     country: "US",
+    notes: "Explo",
   },
   {
     date: "9/14/1993",
@@ -343,6 +347,7 @@ const dives = [
     city: "Lahaina",
     state: "HI",
     country: "US",
+    notes: "Explo - turtles",
   },
   {
     date: "8/13/1995",
@@ -360,6 +365,7 @@ const dives = [
     site: "Coco beach",
     city: "Nice",
     country: "France",
+    notes: "Explo",
   },
   {
     date: "7/29/2001",
@@ -369,6 +375,7 @@ const dives = [
     city: "Monterey",
     state: "CA",
     country: "US",
+    notes: "Kelp forest + crabs",
   },
   {
     date: "7/29/2001",
@@ -378,6 +385,7 @@ const dives = [
     city: "Monterey",
     state: "CA",
     country: "US",
+    notes: "Sun fish",
   },
   {
     date: "10/20/2001",
@@ -388,6 +396,7 @@ const dives = [
     state: "CA",
     country: "US",
     wreck: true,
+    notes: "Wreck dive",
   },
   {
     date: "3/2/2003",
@@ -398,6 +407,7 @@ const dives = [
     state: "Bali",
     country: "Indonesia",
     wreck: true,
+    notes: "Wreck dive",
   },
   {
     date: "3/2/2003",
@@ -407,6 +417,7 @@ const dives = [
     city: "Tulamben",
     state: "Bali",
     country: "Indonesia",
+    notes: "Explo",
   },
   {
     date: "6/29/2025",
@@ -417,6 +428,7 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 31,
+    notes: "Advanced Open Water class",
   },
   {
     date: "6/29/2025",
@@ -427,6 +439,7 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 32,
+    notes: "Advanced Open Water class",
   },
   {
     date: "7/1/2025",
@@ -435,6 +448,7 @@ const dives = [
     site: "Lake Denton",
     state: "FL",
     country: "US",
+    notes: "Advanced Open Water class",
   },
   {
     date: "7/1/2025",
@@ -443,6 +457,7 @@ const dives = [
     site: "Lake Denton",
     state: "FL",
     country: "US",
+    notes: "Advanced Open Water class",
   },
   {
     date: "7/1/2025",
@@ -451,6 +466,7 @@ const dives = [
     site: "Lake Denton",
     state: "FL",
     country: "US",
+    notes: "Explo",
   },
 
   {
@@ -461,6 +477,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    notes: "Horn shark",
   },
   {
     date: "9/15/2025",
@@ -470,6 +487,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    notes: "Explo",
   },
   {
     date: "9/16/2025",
@@ -479,7 +497,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
-    notes: "School of sharks",
+    notes: "School of sharks + sea lions + albatross",
   },
   {
     date: "9/16/2025",
@@ -489,6 +507,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    notes: "Sea lions",
   },
   {
     date: "9/17/2025",
@@ -544,5 +563,6 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 32,
+    notes: "Explo",
   },
 ];

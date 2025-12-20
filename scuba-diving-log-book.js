@@ -56,6 +56,7 @@ const dive = (d) => `<div class="dive">
            : ""
        }
        </div>
+       <div class="notes">${d.notes || ""}</div>
     </div>
   </div>`;
 
@@ -82,7 +83,7 @@ const diveYear = (g) => {
   } = ${fTime(g.duration)}</h2>`;
   const divesHtml =
     '<div class="dives">' + g.dives.map((d) => dive(d)).join("") + "</div>";
-  return yearHeader + divesHtml;
+  return "<section>" + yearHeader + divesHtml + "</section>";
 };
 
 const setup = () => {
