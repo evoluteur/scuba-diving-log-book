@@ -52,7 +52,7 @@ const dive = (d) => `<div class="dive">
        ${fTime(d.duration)}
        ${
          d.nitrox > 21
-           ? '<img class="nitrox" src="icons/diving-scuba-tank.svg" title="Nitrox">'
+           ? `<img class="nitrox" src="icons/diving-scuba-tank.svg" title="Nitrox ${d.nitrox}%">`
            : ""
        }
        </div>
@@ -78,9 +78,9 @@ const groupByYear = () => {
 };
 
 const diveYear = (g) => {
-  const yearHeader = `<h2>${g.year}: ${g.dives.length} ${
+  const yearHeader = `<div class="header2"><h2>${g.year}: ${g.dives.length} ${
     g.dives.length > 1 ? "dives" : "dive"
-  } = ${fTime(g.duration)}</h2>`;
+  } = ${fTime(g.duration)}</h2></div>`;
   const divesHtml =
     '<div class="dives">' + g.dives.map((d) => dive(d)).join("") + "</div>";
   return "<section>" + yearHeader + divesHtml + "</section>";

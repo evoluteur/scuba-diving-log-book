@@ -1,6 +1,6 @@
 body {
   background-color: #1a212d;
-  color: white;
+  color: #faf9f6;
   font-family: monospace;
   font-size: 14px;
   padding: 10px 20px 30px;
@@ -11,6 +11,7 @@ h2 {
   -webkit-background-clip: text;
   background-clip: text !important;
   -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 h1 {
   font-size: 32px;
@@ -19,10 +20,22 @@ h1 {
 h2 {
   margin: 30px 0 20px;
 }
-
+.header1,
+.header2 {
+  position: sticky;
+  background-color: #1a212d;
+  top: 0;
+  padding: 10px 0 0;
+  z-index: 50;
+}
+.header2 {
+  top: 20px;
+  z-index: 40;
+  padding: 5px 0 0;
+}
 .summary {
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .dives {
   margin-left: 16px;
@@ -58,4 +71,17 @@ img {
   position: absolute;
   margin-left: 6px;
   width: 16px;
+}
+footer {
+  color: #4f94d4;
+  text-align: center;
+  margin-top: 50px;
+  > a {
+    color: #4f94d4;
+    text-decoration: none;
+    &:hover {
+      color: orange;
+      text-decoration: underline;
+    }
+  }
 }
