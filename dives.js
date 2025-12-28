@@ -280,7 +280,7 @@ const dives = [
     site: "Semaphore",
     city: "Nice",
     country: "France",
-    notes: "Explo",
+    notes: "Deep dive",
   },
 
   {
@@ -347,7 +347,7 @@ const dives = [
     city: "Lahaina",
     state: "HI",
     country: "US",
-    notes: "Explo - turtles",
+    notes: "Turtles",
   },
   {
     date: "8/13/1995",
