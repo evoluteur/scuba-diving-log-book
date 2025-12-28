@@ -327,7 +327,7 @@ const dives = [
     city: "Lahaina",
     state: "HI",
     country: "US",
-    notes: "Explo",
+    notes: "Lava cavern",
   },
   {
     date: "9/10/1993",
@@ -337,7 +337,7 @@ const dives = [
     city: "Lahaina",
     state: "HI",
     country: "US",
-    notes: "Explo",
+    notes: "Colorful fishes and coral",
   },
   {
     date: "9/14/1993",

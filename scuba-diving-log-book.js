@@ -45,29 +45,31 @@ const summary = () => {
 
 const address = (d) => {
   const p = [];
-  // if (d.city) {
-  //   p.push(d.city);
-  // }
+  if (d.city && d.city !== d.site) {
+    p.push(d.city);
+  }
   if (d.state) {
     p.push(d.state);
   }
   if (d.country) {
     p.push(d.country);
   }
-  return p.join(", ");
+  return " - " + p.join(", ");
 };
+
+const icon = (svg, title) => `<img src="icons/${svg}.svg" title="${title}">`;
 
 const diveIcon = (d) => {
   if (d.night) {
-    return '<img src="icons/weather-night.svg" title="Night dive">';
+    return icon("weather-night", "Night dive");
   }
   if (d.wreck) {
-    return '<img src="icons/sail-boat-sink.svg" title="Wreck dive">';
+    return icon("sail-boat-sink", "Wreck dive");
   }
   if (d.depth >= 18) {
-    return '<img src="icons/waves.svg" title="Deep dive">';
+    return icon("waves", "Deep dive");
   }
-  return '<img src="icons/wave.svg" title="Shallow dive">';
+  return icon("wave", "Shallow dive");
 };
 
 const dive = (d) => `<div class="dive">
