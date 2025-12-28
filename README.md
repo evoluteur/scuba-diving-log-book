@@ -10,7 +10,7 @@ Data structure:
 
 ```typescript
 Dive {
-    date: string, // m/d/yyyy
+    date: string, // mm/dd/yyyy
     depth: number, // in meters
     duration: number, // in minutes
     site: string,
@@ -20,6 +20,7 @@ Dive {
     night?: boolean,
     wreck?: boolean,
     nitrox?: number, // % oxygen
+    temperature?: number, // in celcius
     notes?: string,
 }
 ```

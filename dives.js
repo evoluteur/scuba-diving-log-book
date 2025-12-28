@@ -428,6 +428,7 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 31,
+    temperature: 30,
     notes: "Advanced Open Water class",
   },
   {
@@ -439,6 +440,7 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 32,
+    temperature: 30,
     notes: "Advanced Open Water class",
   },
   {
@@ -448,6 +450,7 @@ const dives = [
     site: "Lake Denton",
     state: "FL",
     country: "US",
+    temperature: 30,
     notes: "Advanced Open Water class",
   },
   {
@@ -457,6 +460,7 @@ const dives = [
     site: "Lake Denton",
     state: "FL",
     country: "US",
+    temperature: 30,
     notes: "Advanced Open Water class",
   },
   {
@@ -466,6 +470,7 @@ const dives = [
     site: "Lake Denton",
     state: "FL",
     country: "US",
+    temperature: 30,
     notes: "Explo",
   },
 
@@ -477,6 +482,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    temperature: 21,
     notes: "Horn shark",
   },
   {
@@ -487,6 +493,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    temperature: 17,
     notes: "Flunder + lobsters + box jellyfish",
   },
   {
@@ -497,6 +504,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    temperature: 19.4,
     notes: "School of sharks + sea lions + albatross",
   },
   {
@@ -507,6 +515,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    temperature: 21.6,
     notes: "Sea lions",
   },
   {
@@ -517,6 +526,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    temperature: 18.3,
     notes: "Sea lions + cave",
   },
 
@@ -528,6 +538,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
+    temperature: 16.7,
     notes: "Kelp forest + lobsters + parrot fish",
   },
 
@@ -540,6 +551,7 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 32,
+    temperature: 26.7,
     notes: "Aborted dive",
   },
   {
@@ -552,6 +564,7 @@ const dives = [
     country: "US",
     nitrox: 31,
     wreck: true,
+    temperature: 26.7,
     notes: "Turtles + shark",
   },
   {
@@ -563,6 +576,7 @@ const dives = [
     state: "FL",
     country: "US",
     nitrox: 32,
+    temperature: 26.7,
     notes: "Explo",
   },
 ];
