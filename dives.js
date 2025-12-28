@@ -487,7 +487,7 @@ const dives = [
     city: "San Diego",
     state: "CA",
     country: "US",
-    notes: "Explo",
+    notes: "Flunder + lobsters + box jellyfish",
   },
   {
     date: "9/16/2025",

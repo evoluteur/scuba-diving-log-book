@@ -4,6 +4,8 @@ My [scuba diving virtual log book](https://evoluteur.github.io/scuba-diving-log-
 
 ![scuba-diving-log-book](scuba-diving-log-book.png)
 
+This project generates a cool looking dive log based on a log file in JSON.
+
 Data structure:
 
 ```typescript
