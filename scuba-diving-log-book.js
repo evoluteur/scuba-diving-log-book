@@ -1,3 +1,6 @@
+// https://github.com/evoluteur/scuba-diving-log-book
+// (c) 2025 Olivier Giulieri
+
 const fTime = (t) => {
   const hours = Math.floor(t / 60);
   const minutes = t % 60;
@@ -11,9 +14,32 @@ const fTime = (t) => {
   return time.join(" ");
 };
 
-const summary = (count, time) => {
+const summary = () => {
+  const count = dives.length;
+  let time = 0;
+  let maxDepth = 0;
+  let sumDepth = 0;
+  const areas = {};
+  dives.forEach((d) => {
+    time += d.duration;
+    sumDepth += d.depth;
+    if (d.depth > maxDepth) {
+      maxDepth = d.depth;
+    }
+    const place = d.state || d.country || "Unknown";
+    areas[place] = (areas[place] || 0) + 1;
+  });
+  const geo = Object.entries(areas).sort((a, b) => b[1] - a[1]);
+  const avgDepth = Math.round(sumDepth / count);
   return `<div class="summary">
     ${count} dives = ${fTime(time)}
+    <div class="silver">
+      ${geo.map((g) => `<span>${g[0]}: ${g[1]}</span>`).join(", ")}
+    </div>
+    <div class="blue">
+      Max depth: ${maxDepth} meters<br>
+      Avg depth: ${avgDepth} meters
+    </div>
   </div>`;
 };
 
@@ -60,6 +86,15 @@ const dive = (d) => `<div class="dive">
     </div>
   </div>`;
 
+const diveYear = (g) => {
+  const yearHeader = `<div class="header2"><h2>${g.year}: ${g.dives.length} ${
+    g.dives.length > 1 ? "dives" : "dive"
+  } = ${fTime(g.duration)}</h2></div>`;
+  const divesHtml =
+    '<div class="dives">' + g.dives.map(dive).join("") + "</div>";
+  return "<section>" + yearHeader + divesHtml + "</section>";
+};
+
 const groupByYear = () => {
   const groups = {};
   dives.forEach((d) => {
@@ -77,23 +112,9 @@ const groupByYear = () => {
   return Object.values(groups);
 };
 
-const diveYear = (g) => {
-  const yearHeader = `<div class="header2"><h2>${g.year}: ${g.dives.length} ${
-    g.dives.length > 1 ? "dives" : "dive"
-  } = ${fTime(g.duration)}</h2></div>`;
-  const divesHtml =
-    '<div class="dives">' + g.dives.map((d) => dive(d)).join("") + "</div>";
-  return "<section>" + yearHeader + divesHtml + "</section>";
-};
-
 const setup = () => {
   const groups = groupByYear();
-  const h = groups.map(diveYear).join("");
-  const count = dives.length;
-  let time = 0;
-  dives.forEach((d) => {
-    time += d.duration;
-  });
+  const hGroups = groups.map(diveYear).join("");
 
-  document.getElementById("log").innerHTML = summary(count, time) + h;
+  document.getElementById("log").innerHTML = summary() + hGroups;
 };

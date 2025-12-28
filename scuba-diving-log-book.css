@@ -35,7 +35,10 @@ h2 {
 }
 .summary {
   text-align: center;
-  margin: 10px 0;
+  margin: 25px 0 20px;
+  > div {
+    margin-top: 15px;
+  }
 }
 .dives {
   margin-left: 16px;
@@ -61,6 +64,10 @@ h2 {
     color: silver;
   }
 }
+.blue {
+  color: #4f94d4;
+}
+.silver,
 .notes {
   color: silver;
 }
