@@ -317,7 +317,7 @@ const dives = [
     site: "Le Plateau",
     city: "Nice",
     country: "France",
-    notes: "Baptheme de Axelle et Amylyn",
+    notes: "Axelle and Amylyn's first dive",
   },
   {
     date: "9/10/1993",
@@ -356,7 +356,7 @@ const dives = [
     site: "Semaphore",
     city: "Nice",
     country: "France",
-    notes: "Baptheme de Laura",
+    notes: "Laura's first dive",
   },
   {
     date: "4/8/1996",
@@ -507,7 +507,7 @@ const dives = [
     state: "CA",
     country: "US",
     temperature: 19.4,
-    notes: "School of sharks + sea lions + albatross",
+    notes: "School of blue sharks + leopard shark + sea lions + albatrosses",
   },
   {
     date: "9/16/2025",
@@ -518,7 +518,7 @@ const dives = [
     state: "CA",
     country: "US",
     temperature: 21.6,
-    notes: "Sea lions",
+    notes: "Sea lions + leopard shark + garibaldi",
   },
   {
     date: "9/17/2025",
@@ -579,6 +579,6 @@ const dives = [
     country: "US",
     nitrox: 32,
     temperature: 26.7,
-    notes: "Explo",
+    notes: "Moray Eel",
   },
 ];
