@@ -25,4 +25,4 @@ Dive {
 }
 ```
 
-Copyright (c) 2025 [Olivier Giulieri](https://evoluteur.github.io/).
+Copyright (c) 2026 [Olivier Giulieri](https://evoluteur.github.io/).

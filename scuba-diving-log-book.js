@@ -1,5 +1,5 @@
 // https://github.com/evoluteur/scuba-diving-log-book
-// (c) 2025 Olivier Giulieri
+// (c) 2026 Olivier Giulieri
 
 const fTime = (t) => {
   const hours = Math.floor(t / 60);
