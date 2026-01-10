@@ -45,6 +45,9 @@ Example dive data:
   }
 ```
 
+Example dive display:
+![scuba-diving-log-book](dive.png)
+
 The code available on [GitHub](https://github.com/evoluteur/scuba-diving-log-book) under the [MIT license](https://github.com/evoluteur/scuba-diving-log-book/blob/main/LICENSE).
 
 Copyright (c) 2026 [Olivier Giulieri](https://evoluteur.github.io/).
